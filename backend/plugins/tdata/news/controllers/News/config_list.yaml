@@ -1,0 +1,13 @@
+list:
+  title: Новости
+  modelClass: TData\News\Models\News
+  recordUrl: tdata/news/news/update/:id
+  noRecordsMessage: 'Записей нет'
+  showCheckboxes: true
+  showSetup: true
+  showSorting: true
+  toolbar:
+    buttons: list_toolbar
+    search:
+      prompt: 'Поиск...'
+  columns: $/tdata/news/models/news/columns.yaml

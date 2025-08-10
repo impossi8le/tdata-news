@@ -1,0 +1,10 @@
+name: Новость
+modelClass: TData\News\Models\News
+form: $/tdata/news/models/news/fields.yaml
+defaultRedirect: tdata/news/news
+create:
+  redirect: 'tdata/news/news/update/:id'
+  redirectClose: tdata/news/news
+update:
+  redirect: tdata/news/news
+  redirectClose: tdata/news/news

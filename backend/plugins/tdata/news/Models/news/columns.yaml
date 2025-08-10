@@ -1,0 +1,31 @@
+columns:
+  id:
+    label: ID
+    searchable: false
+    sortable: true
+    width: 60px
+
+  title:
+    label: Заголовок
+    searchable: true
+    sortable: true
+
+  slug:
+    label: Слаг
+    searchable: true
+    sortable: true
+
+  is_published:
+    label: Опубликовано
+    type: switch
+    sortable: true
+
+  published_at:
+    label: Дата публикации
+    type: datetime
+    sortable: true
+
+  created_at:
+    label: Создано
+    type: datetime
+    sortable: true

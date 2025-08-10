@@ -1,0 +1,29 @@
+fields:
+  title:
+    label: Заголовок
+    span: full
+    type: text
+
+  slug:
+    label: Слаг
+    span: left
+    type: text
+    preset:
+      field: title
+      type: slug
+
+  is_published:
+    label: Опубликовано
+    span: right
+    type: switch
+
+  published_at:
+    label: Дата публикации
+    span: right
+    type: datetime
+    mode: datetime
+
+  content:
+    label: Контент
+    span: full
+    type: richeditor
